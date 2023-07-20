@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolsystem.TeacherNotificationCostume">
+   <children>
+      <Text layoutX="185.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send Notification">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Text layoutX="82.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Class(es) to send to:" />
+      <ListView fx:id="SendNotificationListView" layoutX="242.0" layoutY="91.0" prefHeight="63.0" prefWidth="183.0" />
+      <Text layoutX="105.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter notification text:" />
+      <TextArea fx:id="SentNotificationTextArea" layoutX="242.0" layoutY="172.0" prefHeight="114.0" prefWidth="249.0" />
+      <Button fx:id="SendNotificationSendButton" layoutX="279.0" layoutY="307.0" mnemonicParsing="false" text="Send" />
+      <Button fx:id="SendNotificationBackButton" layoutX="274.0" layoutY="349.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolsystem.ParentViewNotifications">
+   <children>
+      <Text layoutX="123.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent - View Notifications">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button fx:id="PVCBackButton" layoutX="280.0" layoutY="337.0" mnemonicParsing="false" text="Back" />
+      <TableView layoutX="72.0" layoutY="93.0" prefHeight="200.0" prefWidth="447.0">
+        <columns>
+          <TableColumn fx:id="ParentNotificationFromColumn" prefWidth="75.0" text="From" />
+          <TableColumn fx:id="ParentNotificationNotificationColumn" prefWidth="292.3333435058594" text="Notification" />
+            <TableColumn fx:id="ParentNotificationTimeColumn" prefWidth="75.0" text="Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolsystem.TeacherDashboard">
+   <children>
+      <Text layoutX="172.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Dashboard">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button fx:id="TDManageClassesButton" layoutX="67.0" layoutY="115.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" text="Manage Classes" />
+      <Button fx:id="TDSendNotificationsButton" layoutX="376.0" layoutY="115.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" text="Send Notifications" />
+      <Button fx:id="TDSendPrivateMessagesButton" layoutX="67.0" layoutY="226.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" text="Send private messages" />
+      <Button fx:id="TDViewPrivateMessagesButton" layoutX="376.0" layoutY="226.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" text="View private messages" />
+      <Button fx:id="TDLogOutButton" layoutX="270.0" layoutY="330.0" mnemonicParsing="false" text="Log-Out" />
+   </children>
+</AnchorPane>

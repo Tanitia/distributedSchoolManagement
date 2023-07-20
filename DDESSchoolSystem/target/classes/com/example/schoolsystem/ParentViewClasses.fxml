@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolsystem.ParentViewClasses">
+   <children>
+      <Text layoutX="160.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent - View Classes">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button fx:id="PVCBackButton" layoutX="280.0" layoutY="337.0" mnemonicParsing="false" text="Back" />
+    <AnchorPane fx:id="PVCClassPane" layoutX="200.0" layoutY="100.0" minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <TableView fx:id="ViewClassTable" layoutX="-16.0" prefHeight="200.0" prefWidth="231.0">
+              <columns>
+                <TableColumn fx:id="ViewClassClassColumn" prefWidth="75.0" text="Class" />
+                <TableColumn fx:id="ViewClassStartColumn" prefWidth="75.0" text="Start" />
+                  <TableColumn fx:id="ViewClassEndColumn" prefWidth="75.0" text="End" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

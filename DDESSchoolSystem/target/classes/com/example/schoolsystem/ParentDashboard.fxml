@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolsystem.ParentDashboard">
+   <children>
+      <Text layoutX="181.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent Dashboard">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="PDManageClassesButton" layoutX="67.0" layoutY="115.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" text="Manage Classes" />
+      <Button fx:id="PDViewNotificationsButton" layoutX="376.0" layoutY="115.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" text="View Notifications" />
+      <Button fx:id="PDSendPrivateMessagesButton" layoutX="67.0" layoutY="226.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" text="Send private messages" />
+      <Button fx:id="PDViewPrivateMessagesButton" layoutX="376.0" layoutY="226.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="175.0" text="View private messages" />
+      <Button fx:id="PDLogOut" layoutX="270.0" layoutY="330.0" mnemonicParsing="false" text="Log-Out" />
+   </children>
+</AnchorPane>

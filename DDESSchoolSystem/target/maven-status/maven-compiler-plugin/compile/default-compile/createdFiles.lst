@@ -1,0 +1,13 @@
+com\example\schoolsystem\Client\Client$1.class
+com\example\schoolsystem\Testing\Mocker$1.class
+com\example\schoolsystem\Client\Controllers\SPLController.class
+com\example\schoolsystem\Client\Client.class
+module-info.class
+com\example\schoolsystem\Client\Client$getMessages.class
+com\example\schoolsystem\Server\Utils.class
+com\example\schoolsystem\Server\ClientHandler.class
+com\example\schoolsystem\Client\ClientGUI.class
+com\example\schoolsystem\Server\runServer.class
+com\example\schoolsystem\Testing\Mocker.class
+com\example\schoolsystem\Server\Server.class
+com\example\schoolsystem\Client\runClient.class

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolsystem.TeacherViewPM">
+   <children>
+      <Text layoutX="84.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher - View Private Messages">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button fx:id="TVPMBackButton" layoutX="280.0" layoutY="339.0" mnemonicParsing="false" text="Back" />
+      <TableView fx:id="TeacherPMTable" layoutX="84.0" layoutY="88.0" prefHeight="200.0" prefWidth="431.0">
+        <columns>
+          <TableColumn fx:id="TeacherPMFromColumn" prefWidth="75.0" text="From" />
+          <TableColumn fx:id="TeacherPMMessageColumn" prefWidth="283.3333435058594" text="Message" />
+            <TableColumn fx:id="TeacherPMTimeColumn" prefWidth="75.0" text="Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

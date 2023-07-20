@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolsystem.TeacherUpdateClassGrade">
+   <children>
+      <Text layoutX="201.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Grades">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="111.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Student" />
+      <ChoiceBox fx:id="UpdateGradeStudentBox" layoutX="249.0" layoutY="122.0" prefWidth="150.0" />
+      <Text layoutX="111.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input Grade" />
+      <TextField fx:id="UpdateGradeGradeBox" layoutX="249.0" layoutY="196.0" />
+      <Button fx:id="UpdateGradesUpdateButton" layoutX="274.0" layoutY="268.0" mnemonicParsing="false" text="Update" />
+      <Button fx:id="UpdateGradesBackButton" layoutX="281.0" layoutY="331.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

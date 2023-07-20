@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schoolsystem.ParentViewPMDashboard">
+   <children>
+      <Text layoutX="94.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent - View Private Messages">
+         <font>
+            <Font size="30.0" />
+         </font></Text>
+      <Button fx:id="PVPMBackButton" layoutX="280.0" layoutY="325.0" mnemonicParsing="false" text="Back" />
+      <TableView fx:id="ParentPMTable" layoutX="99.0" layoutY="79.0" prefHeight="218.0" prefWidth="413.0">
+        <columns>
+          <TableColumn fx:id="ParentPMFromColumn" prefWidth="75.0" text="From" />
+          <TableColumn fx:id="ParentPMMessageColumn" prefWidth="253.33334350585938" text="Message Text" />
+            <TableColumn fx:id="ParentPMTimeColumn" prefWidth="75.0" text="Time" />
+        </columns>
+      </TableView>
+      <Text layoutX="22.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="could be a table view instead?" />
+   </children>
+</AnchorPane>
